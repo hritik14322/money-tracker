@@ -70,7 +70,6 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         "chart-4": "hsl(var(--chart-4))",
-        },
       },
       borderRadius: {
         lg: "var(--radius)",
