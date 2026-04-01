@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Space Grotesk', 'sans-serif'],
+        body: ['DM Sans', 'sans-serif'],
+      },
       colors: {
+        income: {
+          DEFAULT: "hsl(var(--income))",
+          foreground: "hsl(var(--income-foreground))",
+        },
+        expense: {
+          DEFAULT: "hsl(var(--expense))",
+          foreground: "hsl(var(--expense-foreground))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
