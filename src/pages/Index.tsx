@@ -5,6 +5,7 @@ import SpendingChart from "@/components/dashboard/SpendingChart";
 import TransactionsTable from "@/components/dashboard/TransactionsTable";
 import InsightsPanel from "@/components/dashboard/InsightsPanel";
 import RoleToggle from "@/components/dashboard/RoleToggle";
+import ThemeToggle from "@/components/dashboard/ThemeToggle";
 import { LayoutDashboard } from "lucide-react";
 
 const Index = () => {
