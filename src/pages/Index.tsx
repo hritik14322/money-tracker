@@ -21,7 +21,10 @@ const Index = () => {
               </div>
               <h1 className="font-heading text-xl font-bold tracking-tight">FinBoard</h1>
             </div>
-            <RoleToggle />
+            <div className="flex items-center gap-2">
+              <RoleToggle />
+              <ThemeToggle />
+            </div>
           </div>
         </header>
 
