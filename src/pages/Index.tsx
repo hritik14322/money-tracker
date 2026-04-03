@@ -19,7 +19,9 @@ const Index = () => {
               <div className="p-2 rounded-lg bg-primary text-primary-foreground">
                 <LayoutDashboard className="w-5 h-5" />
               </div>
-              <h1 className="font-heading text-xl font-bold tracking-tight">FinBoard</h1>
+              <h1 className="font-heading text-xl font-bold tracking-tight">
+                Money Tracker
+              </h1>
             </div>
             <div className="flex items-center gap-2">
               <RoleToggle />
